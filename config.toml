@@ -1,4 +1,25 @@
 baseURL = "http://example.org/"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "SM Blog"
 theme = "hugo-theme-cactus-plus"
+# googleAnalytics = "your google analytics id"
+
+[params]
+	# My information
+	author = "Cat Lense"
+	description = "blog about cats"
+	bio = "cat photographer"
+	twitter = "cats"
+	copyright = "Cat Photographer"
+
+	# Tools
+	enableRSS = true
+	enableDisqus = true
+	#disqusShortName = "your disqus short name"
+	enableSummary = true
+	#enableGoogleAnalytics = true
+	enableTwitterCard = true
+
+[social]
+	twitter = "https://twitter.com/jstewuk"
+	github = "https://github.com/jstewuk"
